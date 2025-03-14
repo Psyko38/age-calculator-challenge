@@ -20,6 +20,6 @@ runBTN.addEventListener("click", () => {
 		let r1 = new Date(d1.setTime(diff));
 		yearOut.innerHTML = r1.getFullYear() - 1970;
 		monthOut.innerHTML = r1.getMonth();
-		dayOut.innerHTML = r1.getDay();
+		dayOut.innerHTML = r1.getDate();
 	}
 });
